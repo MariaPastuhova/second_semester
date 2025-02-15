@@ -1,5 +1,10 @@
-cmake_minimum_required(VERSION 3.10
+cmake_minimum_required(VERSION 3.10)
+
 project(second_semester)
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
-add_executable(MyExecutable main.cpp utils.cpp)
+
+set(CMAKE_CXX_STANDART 11)
+set(CMAKE_CXX_STANDART_REQUIRED True)
+
+include_directories(src)
+
+add_executable(second_semester src/main.cpp src/utils.cpp)
