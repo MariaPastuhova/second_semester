@@ -13,5 +13,5 @@ int main()
 
 	std::cout << c;
 
-	std::cout << " " << d;
+	std::cout << "\t" << d;
 }
